@@ -113,4 +113,4 @@ This is a prank tool for friends, not a phishing kit. It doesn't collect persona
 Built in a weekend, mostly to see if I could ship something (anything) completely free and have it actually stay up.
 
 
-*assisted by Claude, who patiently explained why `curl` printing HTML wasn't a bug, why `redis.incr()` without `await` doesn't actually finish, and why the route order in an `if` chain matters more than I thought it did* 🤖
+*assisted by Claude, who patiently explained why `curl` printing HTML wasn't a bug, why `redis.incr()` without `await` doesn't actually finish, and why the route order in an `if` chain matters more than I thought it did*
