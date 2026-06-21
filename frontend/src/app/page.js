@@ -466,17 +466,17 @@ export default function Home() {
         &nbsp;·&nbsp;
         <span style={{ color: "#00ff41" }}>built for chaos</span>
         &nbsp;·&nbsp;
-
-        href="https://github.com/sid-stack001/skbidi-xyz"
-        target="_blank"
-        rel="noopener noreferrer"
-        style={{ color: "#00d4ff", textDecoration: "none" }}
-        onMouseEnter={(e) => (e.target.style.textDecoration = "underline")}
-        onMouseLeave={(e) => (e.target.style.textDecoration = "none")}
-  >
-        source code ↗
-      </a>
-    </div>
+        <a
+          href="https://github.com/sid-stack001/skbidi-xyz"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{ color: "#00d4ff", textDecoration: "none" }}
+          onMouseEnter={(e) => (e.target.style.textDecoration = "underline")}
+          onMouseLeave={(e) => (e.target.style.textDecoration = "none")}
+        >
+          source code ↗
+        </a>
+      </div>
     </main >
   );
 }
