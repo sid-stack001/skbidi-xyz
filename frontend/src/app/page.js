@@ -460,19 +460,23 @@ export default function Home() {
       </div>
 
       {/* footer */}
-      <div
-        style={{
-          textAlign: "center",
-          fontSize: 10,
-          color: "#333",
-          paddingBottom: 16,
-        }}
-      >
+      <div style={{ textAlign: "center", fontSize: 10, color: "#333", paddingBottom: 16 }}>
         <span style={{ color: "#ff6b35" }}>skbidi.xyz</span>
-        &nbsp;·&nbsp; no data collected &nbsp;·&nbsp; no cookies &nbsp;·&nbsp;
-        yes it's free &nbsp;·&nbsp;
+        &nbsp;·&nbsp; no data collected &nbsp;·&nbsp; no cookies &nbsp;·&nbsp; yes it's free
+        &nbsp;·&nbsp;
         <span style={{ color: "#00ff41" }}>built for chaos</span>
-      </div>
-    </main>
+        &nbsp;·&nbsp;
+
+        href="https://github.com/sid-stack001/skbidi-xyz"
+        target="_blank"
+        rel="noopener noreferrer"
+        style={{ color: "#00d4ff", textDecoration: "none" }}
+        onMouseEnter={(e) => (e.target.style.textDecoration = "underline")}
+        onMouseLeave={(e) => (e.target.style.textDecoration = "none")}
+  >
+        source code ↗
+      </a>
+    </div>
+    </main >
   );
 }
