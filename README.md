@@ -16,6 +16,8 @@ you get:      https://skbidi.xyz/npc-80e/touch-grass?skill_issue=true
 your friend:  *visible confusion, then panic*
 the link:     redirects perfectly fine to google.com the whole time
 ```
+<img width="836" height="574" alt="image" src="https://github.com/user-attachments/assets/37e8bb31-8280-470f-a56a-ebf7453d5ad4" />
+
 
 ## Why this exists
 
